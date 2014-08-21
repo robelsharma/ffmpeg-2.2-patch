@@ -8,11 +8,11 @@ Scope of Issue:
 ==========================================================================================================================================================================
 
 When ffmpeg is built for static library and this compiled static library is linked with another dynamic library then the final linking failed with error --
-
+```
 ffmpeg/libavcodec/libavcodec.a(xx_yyyy.o): relocation R_X86_64_PC32 against symbol `ff_xx_yy_zz_qq' can not be used when making a shared object; recompile with -fPIC
 /usr/bin/ld: final link failed: Bad value
 collect2: ld returned 1 exit status
-
+```
 Machine:
 --------
 
