@@ -42,8 +42,9 @@ giving this command inside your ffmpeg source folder.
 
 4. Now patch by following command --
 
+```
 patch -p1 -i ffmpeg-2.2.patch
-
+```
 5. Now enjoy linking with your any other project library !!
 
 
